@@ -4,53 +4,156 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <link rel="stylesheet" href="styles.css" />
     <title>Admin Dashboard</title>
   </head>
   <body>
     <div class="container">
       <div class="sidebar">
-        <div class="header">Dashboard</div>
+        <div class="header"><span class="material-symbols-outlined">
+          density_small
+          </span>Dashboard</div>
+        <div class="top-icons">
         <ul>
-          <li>Home</li>
-          <li>Profile</li>
-          <li>Messages</li>
-          <li>History</li>
-          <li>Tasks</li>
-          <li>Communities</li>
-          <li>Settings</li>
-          <li>Support</li>
-          <li>Privacy</li>
+          <li><span class="material-symbols-outlined">
+            home
+            </span>Home</li>
+          <li><span class="material-symbols-outlined">
+            person
+            </span>Profile</li>
+          <li><span class="material-symbols-outlined">
+            groups
+            </span>Messages</li>
+          <li><span class="material-symbols-outlined">
+            history
+            </span>History</li>
+          <li><span class="material-symbols-outlined">
+            checklist
+            </span>Tasks</li>
+          </div>
+          <div class="bottom-icons">
+          <li><span class="material-symbols-outlined">settings</span>Settings</li>
+          <li><span class="material-symbols-outlined">support_agent</span>Support</li>
+          <li><span class="material-symbols-outlined">enhanced_encryption</span>Privacy</li>
+          </div>
         </ul>
+     
       </div>
+
+      <!------------------- TOP PANEL ------------------ -->
       <div class="top-panel">
-        <div>search bar</div>
-        <div>notification icon</div>
-        <div>user name</div>
-        <div>USER NAME</div>
+        <div class="top-panel-top-left">
+          <div class="search">
+            <span class="material-symbols-outlined">search</span>
+          <input type="text" class="searchTerm" placeholder="   Search here...">
+          </div>
+        </input>
+        </div>
+        <div class="top-panel-bottom-left">
+          <img src="user-pic.png" width="100">
+          <div class="greet-wrap">
+          <div class="greeting">Hello there,</div>
+          <div class="username">John Smith (@Jsmith)</div>
+          </div>
+        </div>
+        <div class="top-panel-top-right">
+    
+        <div class="notifications">
+          <span class="material-symbols-outlined">
+            notifications
+            </span>
+        </div>
+        <div class="display-pic"><img src="user-pic.png" width="60"></div>
+        <div class="text-large">John Smith</div>
+        </div>
+        <div class="top-panel-bottom-right">
+          <button>New</button>
+          <button>Upload</button>
+          <button>Share</button>
+        </div>
       </div>
       <div class="content">
+        <div class="tasks">Your Tasks</div>
         <div class="cards">
-          <div class="card">
-            <h4>card</h4>
-            <p>lorem ipsum lmao lorem ipsum lmao lorem ipsum lmao </p>
+        <div class="card">
+          <h3>Title</h3>
+          <p>Not him old music think his found enjoy merry. </p>
+          <div class="card-icons">
+            <span class="material-symbols-outlined">favorite</span>
+            <span class="material-symbols-outlined">share</span>
+            <span class="material-symbols-outlined">done</span>
           </div>
-          
-          <div class="card">card2</div>
-          <div class="card">card3</div>
-          <div class="card">card4</div>
-          <div class="card">card5</div>
-          <div class="card">card6</div>
-          <div class="card">card7</div>
-          <div class="card">card8</div>
-          <div class="card">card9</div>
-          <div class="card">card10</div>
-          <div class="card">card11</div>
-          <div class="card">card12</div>
+
         </div>
-        <div class="announcements"></div>
-        <div class="trending"></div>
+        <div class="card">
+          <h3>Title</h3>
+          <p>Friendship contrasted solicitude insipidity in introduced literature it. He seemed denote except as oppose do spring my. Between any may mention evening age shortly can ability regular. </p>
+          <div class="card-icons">
+            <span class="material-symbols-outlined">favorite</span>
+            <span class="material-symbols-outlined">share</span>
+            <span class="material-symbols-outlined">done</span>
+          </div>
+
+        </div>
+        <div class="card">
+          <h3>Title</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          <div class="card-icons">
+            <span class="material-symbols-outlined">favorite</span>
+            <span class="material-symbols-outlined">share</span>
+            <span class="material-symbols-outlined">done</span>
+          </div>
+
+        </div>
+        <div class="card">
+          <h3>Title</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          <div class="card-icons">
+            <span class="material-symbols-outlined">favorite</span>
+            <span class="material-symbols-outlined">share</span>
+            <span class="material-symbols-outlined">done</span>
+          </div>
+
+        </div>
+        <div class="card">
+          <h3>Title</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+          <div class="card-icons">
+            <span class="material-symbols-outlined">favorite</span>
+            <span class="material-symbols-outlined">share</span>
+            <span class="material-symbols-outlined">done</span>
+          </div>
+
+        </div>
+        <div class="card">
+          <h3>Title</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+          <div class="card-icons">
+            <span class="material-symbols-outlined">favorite</span>
+            <span class="material-symbols-outlined">share</span>
+            <span class="material-symbols-outlined">done</span>
+          </div>
+
+        </div>
+        
+        
+
+        </div>
+        <div class="right-bar">
+          <div class="announcements">
+            <h3>Announcements</h3>
+          </div>
+          <div class="trending">
+            <h3>Trending</h3>
+            <p></p>
+          </div>
+        </div>
       </div>
+   
     </div>
   </body>
 </html>
